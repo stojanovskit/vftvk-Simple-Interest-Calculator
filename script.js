@@ -11,7 +11,7 @@ function compute()
         alert("Enter a positive number.");
         document.getElementById("principal").focus();
     }else{
-    document.getElementById("result").innerHTML= "<br> <br> If you deposit <span class=\"resul\t">" + principal + "</span>, <br> at an interest rate of <span class=\"resul\t">" + rate + "% </span> <br> You will receive an amount of <span class=\"resul\t">" + amount  +" </span>,<br>in the year <span class=\"resul\t">"+year+" </span>\<br\>" ;
+    document.getElementById("result").innerHTML= "<br> <br> If you deposit " + principal + ", <br> at an interest rate of " + rate + " <br> You will receive an amount of " + amount  +",<br>in the year <span class=\"resul\t">"+year+" </span>\<br\>" ;
     }
 }
 function updateRate() 
