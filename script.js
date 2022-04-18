@@ -8,7 +8,7 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     var amount = principal * (rate/100) * years;
     if (principal < 1) {
-        document.getElementById("result").innerHTML="Enter a positive number."
+        alert("Enter a positive number.");
     }else{
     document.getElementById("result").innerHTML= "<br> <br> If you deposit" + principal + ", <br> at an interest rate of " + rate + "% <br> You will receive an amount of " + amount  +",<br>in the year "+year+"\<br\>" ;
     }
