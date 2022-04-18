@@ -12,7 +12,7 @@
         Amount <input type="number"  id="principal">  <br/>
         Rate <input onchange="updateRate()" type="range"  id="rate" min="minval" value="default_val">  <br/>
         <span id="rate_val">
-            10.25%
+            50%
             </span> <br>
         No. of Years <select  id="years"> 
                         <option value="1">1</option> 
@@ -27,10 +27,13 @@
                         <option value="10">10</option>
                      </select>
                         <br/>
-        Interest : <span id="result"></span><br>
+       
 
 
         <button onclick="compute()"> Compute Interest </button> <br>
+        Interest : <span id="result">
+
+        </span><br>
             
         <footer>
 
