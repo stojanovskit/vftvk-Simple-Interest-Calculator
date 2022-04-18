@@ -9,7 +9,7 @@ function compute()
     var amount = principal * (rate/100) * years;
     if (principal < 1) {
         alert("Enter a positive number.");
-        principal.focus();
+        document.getElementById("principal").focus();
     }else{
     document.getElementById("result").innerHTML= "<br> <br> If you deposit <span class=\"resul\t">" + principal + "</span>, <br> at an interest rate of <span class=\"resul\t">" + rate + "% </span> <br> You will receive an amount of <span class=\"resul\t">" + amount  +" </span>,<br>in the year <span class=\"resul\t">"+year+" </span>\<br\>" ;
     }
