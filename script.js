@@ -6,11 +6,14 @@ function compute()
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
+    var neg = document.getElementById("principal");
     var amount = principal * (rate/100) * years;
     if (principal < 1) {
         alert("Enter a positive number.");
+        neg.focus();
         
-    }else{
+    }
+    else{
     document.getElementById("result").innerHTML= "<br> <br> If you deposit " + principal + ", <br> at an interest rate of " + rate + " <br> You will receive an amount of " + amount  +",<br>in the year <span class=\"resul\t">"+year+" </span>\<br\>" ;
     }
 }
