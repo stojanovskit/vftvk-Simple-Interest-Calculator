@@ -1,18 +1,20 @@
 body {background-color:black;font-family:arial;color:white;margin:auto;}
-html{margin:auto}
+
 h1{color:grey;font-family:verdana}
 
 .maindiv {
     background-color: white;
     margin:auto ;
     color:black;
-    width: 300px;
+    width: 400px;
     padding:20px;
     border-radius: 25px;
+    text-align: center;
     box-align:center;
      
 
 }
 
-#result{background-color:yellow;}
+.ye{background-color:yellow;}
+.wh {background-color:  white;}
 
