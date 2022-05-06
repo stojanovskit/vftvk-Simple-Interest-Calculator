@@ -1,4 +1,4 @@
-body {background-color:black;font-family:arial;color:white;}
+body {background-color:black;font-family:arial;color:white;min-height:100vh}
 
 h1{color:grey;font-family:verdana; text-align: center;}
 
@@ -9,8 +9,11 @@ h1{color:grey;font-family:verdana; text-align: center;}
     width: 500px;
     padding:25px;
     border-radius: 25px;
-    display:block;
-    box-align:center;
+ 
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-top:20%;
     
     
      
