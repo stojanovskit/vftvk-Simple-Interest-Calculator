@@ -1,16 +1,23 @@
-body {background-color:black;font-family:arial;color:white;margin:auto;}
+body {background-color:black;font-family:arial;color:white;min-height:100vh;}
 
-h1{color:grey;font-family:verdana}
-
+h1{color:grey;font-family:verdana; text-align: center;}
+/* div{min-height: 100%;} */
 .maindiv {
     background-color: white;
-    margin:auto ;
+    margin: 0 auto ;
     color:black;
-    width: 400px;
-    padding:20px;
+    width: 500px;
+    padding:25px;
     border-radius: 25px;
-    text-align: center;
-    box-align:center;
+
+    
+    /* display:flex;
+    align-items:center;*/
+    /* flex-direction:column;  */
+    margin-top:20%;
+   
+    
+    
      
 
 }
@@ -18,3 +25,17 @@ h1{color:grey;font-family:verdana}
 .ye{background-color:yellow;}
 .wh {background-color:  white;}
 
+#toop{
+    text-align:justify;
+    
+    margin:auto 15%;
+}
+button{margin-top: 10px;}
+input{margin-top: 10px;
+margin-left: 20px;}
+select{margin-top: 10px;
+margin-left:30px}
+#principal{margin-left: 60px;}
+footer{
+    align-self: flex-start;
+}
